@@ -1,0 +1,631 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 990px) {
+    .intro-tables .intro-table {
+        position: relative;
+        width: 100%;
+        height: 580px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .contact .vira-card {
+        margin: 30px 20px;
+    }
+
+    .social-btns .btn {
+        margin: 0 20px;
+    }
+
+    #text-photo .text h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #text-photo .text h1 span {
+        color: #b40381;
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    #text-photo .text {
+        justify-content: center;
+        margin: 30px 0;
+    }
+}
+
+@media only screen and (max-width: 1101px) {
+    .main-nav-outer .cd-btn {
+        padding: 15px 40px;
+        background: #b40381;
+        color: #fff !important;
+        font-size: 22px;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+        display: inline-block;
+        border-radius: 3px;
+        text-transform: uppercase;
+        line-height: 25px;
+        transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        z-index: 100;
+        position: static;
+        top: 1px;
+        right: 25px;
+
+    }
+}
+
+@media only screen and (min-width: 1101px) {
+    /****Ipad Landscape 1024 Container 970 ****/
+
+    .structure-list {
+        margin-bottom: 30px;
+    }
+
+    .c-logo-part ul li {
+        margin: 0 15px;
+    }
+
+    .form {
+        margin: 0 0 0 20px
+    }
+
+    .main-nav {
+        display: block !important;
+    }
+
+    .intro-table-first {
+        min-height: 360px;
+    }
+
+
+    /*.portfolioContainer{ width:800px; margin:0px auto !important; } */
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+
+    /****Ipad Portrait 768 Container 750 ****/
+    body {
+        font-size: 13px;
+    }
+
+    p {
+        line-height: 20px;
+    }
+
+    .header h1 {
+        font-size: 46px;
+    }
+
+    .main-nav ul li a {
+        padding: 14px;
+    }
+
+    .small-logo {
+        padding: 0 20px;
+    }
+
+    h2 {
+        font-size: 30px
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .structure-list {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .featured-work p.padding-b {
+        padding-bottom: 15px;
+    }
+
+    .main-section {
+        padding: 70px 0;
+    }
+
+    .c-logo-part ul li {
+        margin: 0 1%;
+        float: left;
+        width: 18%;
+    }
+
+    .c-logo-part ul li a {
+        display: block;
+    }
+
+    .c-logo-part ul li a img {
+        display: block;
+    }
+
+    .form {
+        margin: 0;
+    }
+
+    .contact-info-box {
+        margin: 0;
+    }
+
+    .social-link {
+        margin: 0;
+    }
+
+    /*.portfolioContainer{ width:750px; margin:0px auto !important; }
+	.Portfolio-box{ height:250px;}*/
+    .main-nav-outer {
+        padding: 17px 0;
+    }
+
+    .main-nav {
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 66px;
+        margin: 0 auto;
+        background: #fff;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li.small-logo {
+        display: none;
+    }
+
+    .main-nav li a {
+        display: block;
+        padding: 7px 20px;
+        border-bottom: none;
+        transform: translateX(-7px)
+    }
+
+    .main-nav li a:hover {
+        color: #7cc576
+    }
+
+    .res-nav_click {
+        display: block;
+        transform: translateX(10px)
+    }
+
+    .stats-item p {
+        line-height: 18px;
+    }
+
+    .stats-item h3 {
+        font-size: 25px;
+    }
+
+    #services-tabs .tab-bg {
+        padding: 30px 30px;
+    }
+
+    .service-tab .col-md-6 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .service-tab p {
+        line-height: 20px;
+    }
+
+    .intro-table-first {
+        min-height: 395px;
+    }
+
+    #modal {
+        -webkit-box-shadow: 0px 0px 10px rgba(17, 17, 17, 0.5);
+        box-shadow: 0px 0px 10px rgba(17, 17, 17, 0.5);
+    }
+
+    #modal:hover {
+        -webkit-box-shadow: 0px 2px 20px rgba(180, 3, 129, 0.7);
+        box-shadow: 0px 2px 20px rgba(180, 3, 129, 0.7);
+    }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    /****Mobile Landscape 480 Container 100% ****/
+    body {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    h6 {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    p {
+        line-height: 18px;
+    }
+
+    .about-list {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .we-create li {
+        font-size: 13px;
+        padding: 0 0 0 8px
+    }
+
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .header {
+        padding: 60px 0;
+    }
+
+    .main-section {
+        padding: 60px 0 70px;
+    }
+
+    .main-nav-outer {
+        padding: 17px 0;
+    }
+
+    .main-nav {
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 66px;
+        margin: 0 auto;
+        background: #fff;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li.small-logo {
+        display: none;
+    }
+
+    .main-nav li a {
+        display: block;
+        padding: 7px 20px;
+        border-bottom: none;
+        transform: translateX(-7px)
+    }
+
+    .main-nav li a:hover {
+        color: #7cc576
+    }
+
+    .team-leader-box {
+        max-width: 307px;
+        width: auto;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .team-leader-box:nth-of-type(3n) {
+        margin: 0 auto
+    }
+
+    .main-section.team {
+        padding: 60px 0 50px;
+    }
+
+    .res-nav_click {
+        display: block;
+        transform: translateX(10px)
+    }
+
+    .featured-work {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    .featured-box {
+        font-size: 12px;
+    }
+
+    .featured-box p {
+        line-height: 18px;
+    }
+
+    .c-logo-part ul a {
+        margin-bottom: 5px;
+    }
+
+    .business-talking h2 {
+        font-size: 36px;
+    }
+
+    .contact-info-box {
+        margin: 0 0 12px 30px;
+        font-size: 12px;
+    }
+
+    .contact-info-box span {
+        line-height: 18px;
+    }
+
+    .social-link {
+        margin-left: 30px;
+    }
+
+    .form {
+        margin: 0 30px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    .business-talking a {
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+
+    .main-section.contact {
+        padding: 60px 0 70px
+    }
+
+    .client-part-haead {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .link {
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .main-section.contact {
+        background-size: contain;
+    }
+
+    .Portfolio-nav li a {
+        padding: 5px 16px;
+    }
+
+    .Portfolio-nav li {
+        display: block;
+    }
+
+    .stats-item {
+        margin-bottom: 20px;
+        padding: 25px 5px;
+    }
+
+    .stats-item i {
+        font-size: 30px;
+    }
+
+    .stats-item h3 {
+        font-size: 24px;
+    }
+
+    .syllabus-item {
+        padding: 20px 40px !important;
+    }
+
+    .service-tab p {
+        text-align: left;
+    }
+
+    .intro-table-first {
+        min-height: 395px;
+    }
+
+
+    /*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
+	.isotope-item{ width:300px; margin:0px auto;}
+	.isotope{ width:400px; margin:0px auto;}
+	.Portfolio-box{}
+	.portfolioContainer{ width:350px; margin:0px auto !important; } */
+
+
+}
+
+@media only screen and (max-width: 479px) {
+
+    /****Mobile Portrait 320 ****/
+    .contact-info-box {
+        margin-left: 0px;
+    }
+
+    .header {
+        padding: 40px;
+    }
+
+    .social-link {
+        margin-left: 0px;
+    }
+
+    .form {
+        margin: 0
+    }
+
+    .c-logo-part ul li {
+        display: block;
+    }
+
+    .Portfolio-box {
+        max-width: 300px !important;
+        width: 96.4% !important;
+        margin: 0 !important
+    }
+
+    .Portfolio-box img {
+        max-width: 100%;
+    }
+
+    .portfolioContainer {
+        width: 280px !important;
+        margin: 0 auto !important
+    }
+
+    .service-tab .col-md-6 {
+        padding: 15px
+    }
+
+    .r-tabs-accordion-title {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .r-tabs-accordion-title a {
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+        color: #212226;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    /* Tab active state */
+    .r-tabs-accordion-title.r-tabs-state-active a {
+        color: #b40381;
+        font-weight: 700;
+        border-bottom: 3px solid #b40381;
+        padding-bottom: 5px;
+        -webkit-transition: border-color 300ms linear;
+        transition: border-color 300ms linear;
+    }
+
+    .syllabus-item p {
+        font-size: 12px;
+    }
+
+    .syllabus-item h3 {
+        font-size: 16px !important;
+    }
+
+    .intro-table-first {
+        min-height: 460px;
+    }
+
+    .syllabus-item {
+        text-align: left !important;
+    }
+
+    .syllabus-item i {
+        font-size: 20px !important;
+    }
+
+    #modal-container {
+        padding-bottom: 0;
+    }
+
+    .social-btns .btn {
+        margin: 0 3px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .content-box-md {
+        padding: 80px 0;
+    }
+
+    .structure-item {
+        padding: 55px 30px;
+        margin-bottom: 35px;
+    }
+
+    .structure-item i {
+        font-size: 30px;
+    }
+
+    .structure-item h3 {
+        font-size: 18px;
+    }
+
+    .syllabus-item {
+        margin-bottom: 20px;
+        padding: 25px 5px;
+    }
+
+    .syllabus-item:hover i {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5);
+    }
+
+    .syllabus-item i {
+        font-size: 30px;
+    }
+
+    .syllabus-item h3 {
+        font-size: 24px;
+    }
+
+    .r-tabs-accordion-title {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .r-tabs-accordion-title a {
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+        color: #212226;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    /* Tab active state */
+    .r-tabs-accordion-title.r-tabs-state-active a {
+        color: #b40381;
+        font-weight: 700;
+        border-bottom: 3px solid #b40381;
+        padding-bottom: 5px;
+        -webkit-transition: border-color 300ms linear;
+        transition: border-color 300ms linear;
+    }
+
+    #services-tabs .tab-bg {
+        padding: 30px 30px;
+    }
+
+    .service-tab .col-md-6 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .intro-tables .intro-table {
+        position: relative;
+        width: 100%;
+        height: 610px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+}
