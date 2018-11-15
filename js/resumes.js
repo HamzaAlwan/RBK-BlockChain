@@ -62,7 +62,6 @@ $(function () {
         url: '/applicants',
         type: 'GET',
         success: function (data) {
-            console.log(data)
             var $name, i, n = 1, total = data.length;
             $('<p>' + 'Total Applicants: ' + total + '<p>').appendTo($('#resumes'))
             for(i = 0; i < data.length; i++){
@@ -72,17 +71,16 @@ $(function () {
                         + '<li class="col-md-6">'+ '<span>' + "Phone Number: " + '</span>' + data[i].phoneNumber + '</li>'
                         + '<li class="col-md-6">'+ '<span>' + "Nationality: " + '</span>' + data[i].nationality + '</li>'
                         + '<li class="col-md-6">'+ '<span>' + "City: " + '</span>' + data[i].city + '</li>'
-                        + '<li class="col-md-6">'+ '<span>' + "Does He have a coding experiance: " + '</span>' + data[i].experiance + '</li>'
-                        + '<li class="col-md-6">'+ '<span>' + "How many years of experiance: " + '</span>' + data[i].yearsOfExperiance + '</li>'
-                        + '<li class="col-md-6">'+ '<span>' + "Is he currently working: " + '</span>' + data[i].isWorking + '</li>'
-                        + '<li class="col-md-6">'+ '<span>' + "His level in JavaScript: " + '</span>' + data[i].javaScript + '</li>'
-                        + '<li class="col-md-6">'+ '<span>' + "His level in OOP: " + '</span>' + data[i].oop + '</li>'
+                        + '<li class="col-md-6">'+ '<span>' + "Coding experiance: " + '</span>' + data[i].experiance + '</li>'
+                        + '<li class="col-md-6">'+ '<span>' + "Years of experiance: " + '</span>' + data[i].yearsOfExperiance + '</li>'
+                        + '<li class="col-md-6">'+ '<span>' + "Currently working: " + '</span>' + data[i].isWorking + '</li>'
+                        + '<li class="col-md-6">'+ '<span>' + "JavaScript Level: " + '</span>' + data[i].javaScript + '</li>'
+                        + '<li class="col-md-6">'+ '<span>' + "OOP Level: " + '</span>' + data[i].oop + '</li>'
                         + '<li class="col-md-6">'+ '<span>' + "Github account link: " + '</span>' + data[i].github + '</li>'
                         + '<li class="col-md-6" ' + 'onclick=' + 'getResume(' + '"' + data[i]._id  + '"' +  ')'  + '>' + '<span>' + "Download resume: " + '</span>' + '<span class="download">' +data[i].resume + '</span></li>'
-                        +  '<li id="experiance" class="col-md-12">'+ '<span>' + "A brief intro about his work experience: " + '</span>' + data[i].about + '</li></ul>'
+                        +  '<li id="experiance" class="col-md-12">'+ '<span>' + "A brief intro about work experience: " + '</span>' + data[i].about + '</li></ul>'
                          )
                 n++
-                
                 $name.appendTo($('#resumes'))
             }
         },

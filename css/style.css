@@ -17,6 +17,8 @@
     float: right;
 }
 
+.pointer {cursor: pointer;}
+
 /* Clear Floated Elements
 ---------------------------------*/
 .clear {
@@ -714,7 +716,7 @@ section {
 }
 
 .copyright span {
-    font-size: 17px;
+    font-size: 15px;
     color: #b40381;
     font-weight: bold;
 }
@@ -1411,6 +1413,31 @@ section {
     font-size: 40px;
 }
 
+#crew-1 {
+    background-image: url('../img/team/crew-dude.jpg');
+}
+
+#crew-2 {
+    background-image: url('../img/team/crew-dude.jpg');
+}
+
+#crew-3 {
+    background-image: url('../img/team/crew-dude.jpg');
+}
+
+#crew-4 {
+    background-image: url('../img/team/crew-dude.jpg');
+}
+
+#crew-5 {
+    background-image: url('../img/team/crew-dude.jpg');
+}
+
+#crew-6 {
+    background-image: url('../img/team/crew-dude.jpg');
+}
+
+
 .crew article.crew-member {
     position: relative;
     overflow: hidden;
@@ -1805,11 +1832,11 @@ Modal Window
 }
 
 .social-btns .btn.linkedin:before {
-    background-color: #4875B4;
+    background-color: #0077B5;
 }
 
 .social-btns .btn.linkedin .fa {
-    color: #4875B4;
+    color: #0077B5;
 }
 
 .social-btns .btn:focus:before,

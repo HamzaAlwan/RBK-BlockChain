@@ -1,0 +1,41 @@
+body {
+    color: black !important;
+    font-size: 20px;
+    font-family: 'Raleway';
+    padding: 25px 0;
+    background-color: #fff
+}
+
+ul {
+    list-style: none !important;
+    -webkit-box-shadow: 0px 3px 20px rgba(17, 17, 17, 0.4);   
+    box-shadow: 0px 3px 20px rgba(17, 17, 17, 0.4);   
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    font-family: 'Acme';
+    color: black;
+}
+
+ul li {
+    padding: 6px 20px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Titillium Web';
+    word-wrap: break-word
+}
+
+p{
+    margin-top: 25px;
+    font-weight: bold
+}
+
+section {
+    background-color: #fff
+}
+
+ul li span {
+    font-weight: bold;
+    font-size: 18px;
+    color: #b40381;
+}
