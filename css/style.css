@@ -1,12 +1,3 @@
-/*
-    Theme Name: Knight
-    Theme URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-*/
-
-/* CSS Document */
-
 /* Float Elements 
 ---------------------------------*/
 .fl-lt {
@@ -17,7 +8,9 @@
     float: right;
 }
 
-.pointer {cursor: pointer;}
+.pointer {
+    cursor: pointer;
+}
 
 /* Clear Floated Elements
 ---------------------------------*/
@@ -308,6 +301,7 @@ section {
     padding: 10px 0;
     padding-left: 35px;
     list-style: none;
+    padding-right: 53px;
 }
 
 .main-nav li {
@@ -320,9 +314,10 @@ section {
     display: inline-block;
     color: #222222;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-decoration: none;
     line-height: 20px;
+    font-weight: 500;
     margin: 15px 5px;
     padding: 0 15px;
     transition: all 0.3s ease-in-out;
@@ -469,7 +464,6 @@ section {
     font-family: "Raleway", sans-serif;
     font-size: 15px;
     font-weight: 500
-    
 }
 
 
@@ -515,55 +509,6 @@ section {
     font-size: 70px;
     position: relative;
     padding: 14% 0;
-}
-
-
-/* Contact
----------------------------------*/
-#contact {
-    color: black;
-    padding-top: 40px;
-    padding-bottom: 60px;
-    background-color: #fff;
-}
-
-.main-section.contact {
-    padding: 20px 0 100px 20px;
-}
-
-.main-section.contact {
-    background: #fff;
-}
-
-.contact-info-box {
-    font-size: 15px;
-    margin: 0 0 14px 68px;
-    padding-left: 0;
-}
-
-
-.contact-info-box h3 {
-    font-size: 15px;
-    font-weight: 400;
-    float: left;
-    width: 102px;
-    margin-right: 12px;
-    line-height: 28px;
-}
-
-.contact-info-box h3 i {
-    font-style: normal;
-    font-size: 18px;
-    color: #222222;
-    font-family: 'FontAwesome';
-    font-weight: normal;
-    margin-right: 7px;
-}
-
-.contact-info-box span {
-    line-height: 28px;
-    display: block;
-    overflow: hidden;
 }
 
 .social-link {
@@ -690,41 +635,28 @@ section {
 
 /* Footer
 ---------------------------------*/
-.copyright,
-.credits {
-    color: #cccccc;
-    font-size: 14px;
-    display: block;
-    text-align: center;
-}
-
-.copyright a:hover,
-.credits a:hover {
-    color: #fff;
-}
-
-.footer-bottom {
+footer {
+    background: #212226;
+    padding: 25px;
+    bottom: 0;
     width: 100%;
-    background: black;
-    padding: 30px 0;
+    font-size: 16px;
 }
 
-.copyright {
-    letter-spacing: 3px;
-    font-family: "Exo 2"
-
+footer p {
+    color: #fff;
+    line-height: 20px;
+    margin: 0;
 }
 
-.copyright span {
-    font-size: 15px;
+footer p span {
     color: #b40381;
-    font-weight: bold;
 }
-
 
 .res-nav_click {
     line-height: 38px;
     font-family: 'FontAwesome';
+    font-style: normal;
     font-size: 38px;
     text-decoration: none !important;
     color: #777777;
@@ -1121,55 +1053,6 @@ section {
     font-size: 16px;
 }
 
-#contact {
-    padding: 70px 20px;
-    padding-top: 120px;
-}
-
-.contact .vira-card {
-    background-color: #f8f8f8;
-    padding: 35px 0;
-    margin: 20px 0;
-    transition: all 0.3s ease-in-out;
-    -webkit-box-shadow: 0px 3px 2px rgba(17, 17, 17, 0.3);
-    box-shadow: 0px 3px 2px rgba(17, 17, 17, 0.3);
-}
-
-.contact .vira-card .vira-card-header {
-    margin-bottom: 15px;
-    font-size: 25px;
-    color: #b40381;
-}
-
-.contact .vira-card .vira-card-content h3 {
-    letter-spacing: 2px;
-    margin-bottom: 45px;
-}
-
-.contact .vira-card .vira-card-content h3:after {
-    top: 40px;
-}
-
-.contact .vira-card .vira-card-content p {
-    font-size: 18px;
-}
-
-.vira-card .vira-card-header .card-icon:after {
-    transition: all 0.3s ease-in-out;
-}
-
-.vira-card:hover .vira-card-header .card-icon:after {
-    height: 120px;
-    width: 120px;
-    top: -1px;
-    left: -1px;
-}
-
-.contact .vira-card:hover {
-    -webkit-box-shadow: 0px 5px 5px rgba(180, 3, 129, 0.5);
-    box-shadow: 0px 5px 5px rgba(180, 3, 129, 0.5);
-}
-
 .title {
     position: relative;
     margin-bottom: 100px;
@@ -1184,13 +1067,6 @@ section {
     top: 60px;
     left: calc(50% - 20px);
 }
-
-
-
-
-
-
-
 
 
 
@@ -1365,7 +1241,7 @@ section {
 }
 
 .stats p.stats-number {
-    font-family: 'Montserrat', 'Georgia', "Times New Roman", serif;
+    font-family: 'Montserrat', 'Georgia', "Times New Roman", sans-serif;
     font-size: 48px;
     color: #fff
 }
@@ -1587,7 +1463,7 @@ Modal Window
 
 .cd-modal-content label span {
     font-size: 15px;
-    font-family: cursive;
+    font-family: cursive, , sans-serif;
 }
 
 .cd-modal svg {
@@ -2018,7 +1894,7 @@ Modal Window
 
 
 .bootcamp-item {
-    text-align: center!important;
+    text-align: center !important;
     min-height: 250px;
     padding: 100px 50px;
     -webkit-transition: all 400ms linear;
@@ -2041,13 +1917,18 @@ Modal Window
 /* =========================================
                 Contact
 ============================================ */
+#contact {
+    color: black;
+    padding-top: 120px;
+}
+
 #contact .content-box-md {
-    padding-top: 0;    
+    padding-top: 0;
 }
 
 #contact-left {
     text-align: center;
-    padding: 0 50px;
+    padding: 0 20px;
 }
 
 #contact-left h4 {
@@ -2071,27 +1952,29 @@ Modal Window
 }
 
 .feedback-input {
-  color: #b40381;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
-  font-size: 18px;
-  border-radius: 5px;
-  line-height: 22px;
-  background-color: transparent;
-  border:1px solid #b40381;
-  transition: all 0.3s;
-  padding: 15px;
-  margin-bottom: 15px;
-  box-sizing: border-box;
-  outline:0;
+    color: #b40381;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 1px solid #b40381;
+    transition: all 0.3s;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    outline: 0;
 }
 
-.feedback-input:focus { border:1px solid #0097E3; }
+.feedback-input:focus {
+    border: 1px solid #0097E3;
+}
 
 .contact-form textarea {
-  height: 150px;
-  line-height: 150%;
-  resize:vertical;
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
 }
 
 .contact-form [type="submit"] {
@@ -2112,10 +1995,11 @@ Modal Window
     -moz-transition: all 0.3s linear;
     -webkit-transition: all 0.3s linear;
 }
-.contact-form [type="submit"]:hover { 
+
+.contact-form [type="submit"]:hover {
     text-decoration: none;
     color: black !important;
-    background: #fff; 
+    background: #fff;
 }
 
 .contact-form [type="submit"]:active,
@@ -2129,7 +2013,7 @@ Modal Window
     padding: 40px 0;
 }
 
-#contact-right h2{
+#contact-right h2 {
     padding-top: 30px;
     font-size: 60px;
     color: #b40381;
@@ -2146,4 +2030,8 @@ Modal Window
     font-size: 25px;
     font-family: "Exo 2";
     padding-bottom: 40px;
+}
+#contact-right p a{
+    text-decoration: none;
+    color: inherit
 }
