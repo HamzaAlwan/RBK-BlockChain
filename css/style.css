@@ -317,7 +317,7 @@ section {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     line-height: 20px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 15px 5px;
     padding: 0 15px;
     transition: all 0.3s ease-in-out;
@@ -385,7 +385,7 @@ section {
 
 .syllabus-item h3 {
     color: #b40381;
-    font-size: 28px;
+    font-size: 40px;
     font-family: "Exo 2", sans-serif;
     font-weight: bold;
     -webkit-transition: all 300ms linear;
@@ -394,7 +394,7 @@ section {
 
 
 .syllabus-item p {
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
     margin: 0;
     font-family: "Raleway", sans-serif;
@@ -430,7 +430,7 @@ section {
     background-color: #fff;
     padding: 70px 50px;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     border-radius: 5px;
     letter-spacing: normal;
     min-height: 430px !important;
@@ -460,7 +460,7 @@ section {
 
 .structure-item p {
     margin-top: 25px;
-    text-align: justify;
+    text-align: center;
     font-family: "Raleway", sans-serif;
     font-size: 15px;
     font-weight: 500
@@ -637,7 +637,7 @@ section {
 ---------------------------------*/
 footer {
     background: #212226;
-    padding: 25px;
+    padding: 25px 0;
     bottom: 0;
     width: 100%;
     font-size: 16px;
@@ -736,9 +736,10 @@ footer p span {
 
 /* Services
 ---------------------------------*/
-#services-02 {
+#services {
     background: #f4f4f4;
     padding-bottom: 10px;
+    padding-top: 25px
 }
 
 #services-tabs ul {
@@ -828,9 +829,8 @@ footer p span {
 .service-tab p {
     font-size: 16px;
     line-height: 2.2;
-    padding: 25px;
-    text-align: justify;
-    font-family: 'RaleWay', sans-serif;
+    padding: 30px 25px;
+    text-align: left;
     font-weight: 550;
 }
 
@@ -934,16 +934,16 @@ footer p span {
 }
 
 .owl-schedule .schedule-row a {
-    margin-top: 25px;
-    /*    margin-left: 40px;*/
-    padding: 25px 35px;
+    margin-top: 45px;
+    margin-left: 15px;
+    padding: 25px 25px;
     background: #b40381;
     color: #fff !important;
     font-size: 22px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     display: inline-block;
-    border-radius: 3px;
+    border-radius: 20px;
     text-transform: uppercase;
     line-height: 25px;
     transition: all 0.3s ease-in-out;
@@ -952,6 +952,7 @@ footer p span {
     bottom: 0;
     left: 50%;
     z-index: 100;
+    border: 1px solid #b40381;
 }
 
 .owl-schedule .schedule-row a:hover {
@@ -968,28 +969,6 @@ footer p span {
     text-decoration: none;
     color: #fff !important;
     border: 1px solid #b40381;
-}
-
-
-.owl-schedule .schedule-row a {
-    -webkit-animation: pulse 1.0s infinite cubic-bezier(0.88, 0, 0, 1.1);
-    animation: pulse 1.0s infinite cubic-bezier(0.88, 0, 0, 1.1);
-}
-
-.owl-schedule .schedule-row a {
-    @-webkit-keyframes pulse {
-        to {
-            -webkit-box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
-            box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
-        }
-    }
-
-    @keyframes pulse {
-        to {
-            -webkit-box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
-            box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
-        }
-    }
 }
 
 .ripple-effect {
@@ -1268,10 +1247,6 @@ footer p span {
     text-align: left
 }
 
-
-
-
-
 /* The Crew */
 .crew {
     background: white;
@@ -1290,23 +1265,23 @@ footer p span {
 }
 
 #crew-1 {
-    background-image: url('../img/team/crew-dude.jpg');
+    background-image: url('../img/team/Hugh.png');
 }
 
 #crew-2 {
-    background-image: url('../img/team/crew-dude.jpg');
+    background-image: url('../img/team/Hanan.png');
 }
 
 #crew-3 {
-    background-image: url('../img/team/crew-dude.jpg');
+    background-image: url('../img/team/Besslan.png');
 }
 
 #crew-4 {
-    background-image: url('../img/team/crew-dude.jpg');
+    background-image: url('../img/team/Dareen.png');
 }
 
 #crew-5 {
-    background-image: url('../img/team/crew-dude.jpg');
+    background-image: url('../img/team/Abd.png');
 }
 
 #crew-6 {
@@ -1364,11 +1339,20 @@ footer p span {
 }
 
 .crew article.crew-member h2 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 20px;
     text-transform: uppercase;
-    color: #fff
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.crew article.crew-member h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+    text-transform: none;
 }
 
 .crew article.crew-member img {
@@ -1485,7 +1469,7 @@ Modal Window
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, 0.3) url(../img/cd-icon-close.svg) no-repeat center center;
+    background: rgba(0, 0, 0, 0.3) url(../img/svgIcon/cd-icon-close.svg) no-repeat center center;
     /* image replacement */
     overflow: hidden;
     text-indent: 100%;
@@ -1741,7 +1725,7 @@ Modal Window
     background-color: #fff;
     width: 80px;
     height: 80px;
-    line-height: 80px;
+    line-height: 84px;
     padding: 0 10px;
     margin: 0 20px;
     text-align: center;
@@ -1884,7 +1868,7 @@ Modal Window
 /* bootcamp
 ---------------------------------*/
 #bootcamp {
-    background: url("../img/group.jpg") no-repeat center fixed;
+    background: url("../img/group/group.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
@@ -1906,11 +1890,14 @@ Modal Window
     justify-content: center;
     line-height: 1.4;
     color: #fff;
+    font-family: "RaleWay";
 }
 
 .bootcamp-item h2 {
     color: #b40381;
-    font-size: 40px;
+    font-size: 45px;
+    line-height: 1.2;
+    font-family: "RaleWay";
 }
 
 
@@ -2010,7 +1997,7 @@ Modal Window
 }
 
 #contact-right {
-    padding: 40px 0;
+    padding: 45px 0;
 }
 
 #contact-right h2 {
@@ -2034,4 +2021,38 @@ Modal Window
 #contact-right p a{
     text-decoration: none;
     color: inherit
+}
+
+#story {
+    background-color: #f4f4f4;
+    padding-bottom: 130px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+#story-img {
+    border-radius: 15px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    padding: 15px;
+}
+
+#story-img img {
+    border-radius: 15px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+#story-text p {
+    padding: 15px 0 15px 100px;
+    font-family: 'Chakra Petch';
+    font-size: 25px;
+    line-height: 1.1
+}
+#story-text h1 {
+    color: black;
+    padding: 0 0 10px 100px;
+    font-family: 'K2D';
+    font-size: 35px;
+    font-weight: bold
 }

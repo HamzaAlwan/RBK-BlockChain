@@ -308,7 +308,7 @@ jQuery(document).ready(function () {
             coverLayer.addClass('modal-is-visible');
             animateModal(pathsArray, pathSteps, duration, 'open');
             $("#fixed-nav").fadeOut(300);
-            $('.apply-btn').fadeOut(300)
+            $('.apply-btn').fadeOut(300);
         });
 
         //close modal window
@@ -316,9 +316,9 @@ jQuery(document).ready(function () {
             event.preventDefault();
             modal.removeClass('modal-is-visible');
             coverLayer.removeClass('modal-is-visible');
-            animateModal(pathsArray, pathSteps, duration, 'close')
-            $("#fixed-nav").slideDown(400)
-            $('.apply-btn').show()
+            animateModal(pathsArray, pathSteps, duration, 'close');
+            $("#fixed-nav").slideDown(400);
+            $('.apply-btn').show();
         });
     }
 

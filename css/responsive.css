@@ -163,8 +163,6 @@
         margin: 0;
     }
 
-    /*.portfolioContainer{ width:750px; margin:0px auto !important; }
-	.Portfolio-box{ height:250px;}*/
     .main-nav-outer {
         padding: 17px 0;
     }
@@ -181,6 +179,7 @@
 
     .main-nav li {
         display: block;
+        transform: translateX(2%);
     }
 
     .main-nav li.small-logo {
@@ -195,7 +194,7 @@
     }
 
     .main-nav li a:hover {
-        color: #7cc576
+        color: #b40381
     }
 
     .res-nav_click {
@@ -241,7 +240,7 @@
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
     /****Mobile Landscape 480 Container 100% ****/
     body {
@@ -288,7 +287,7 @@
     }
 
     .main-nav-outer {
-        padding: 17px 0;
+        padding: 5px 0;
     }
 
     .main-nav {
@@ -303,6 +302,7 @@
 
     .main-nav li {
         display: block;
+        transform: translateX(2.5%);
     }
 
     .main-nav li.small-logo {
@@ -313,11 +313,10 @@
         display: block;
         padding: 7px 20px;
         border-bottom: none;
-        transform: translateX(-7px)
     }
 
     .main-nav li a:hover {
-        color: #7cc576
+        color: #b40381
     }
 
     .team-leader-box {
@@ -337,7 +336,7 @@
 
     .res-nav_click {
         display: block;
-        transform: translateX(10px)
+        transform: translateX(6px)
     }
 
     .featured-work {
@@ -441,15 +440,37 @@
     .intro-table-first {
         min-height: 395px;
     }
-
-
-    /*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
-	.isotope-item{ width:300px; margin:0px auto;}
-	.isotope{ width:400px; margin:0px auto;}
-	.Portfolio-box{}
-	.portfolioContainer{ width:350px; margin:0px auto !important; } */
-
-
+    
+    .bootcamp-item h1 {
+    font-size: 30px;
+    justify-content: center;
+    line-height: 1.5;
+    color: #fff;
+    font-family: "RaleWay";
+    }
+    
+    .bootcamp-item h2 {
+    color: #b40381;
+    font-size: 35px;
+    text-align: center;
+    }
+    
+    #contact-left h4 {
+    font-size: 30px;
+    padding: 20px 0;
+    font-family: "Exo 2", sans-serif;
+    text-align: left;
+    margin-left: 9px;
+    }
+    
+    #story-text p {
+    padding: 15px 30px 15px 30px;
+    }
+    
+    #story-text h1 {
+    padding: 0 30px 10px 30px;
+    text-align: center
+    }
 }
 
 @media only screen and (max-width: 479px) {
