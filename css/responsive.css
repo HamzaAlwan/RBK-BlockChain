@@ -440,36 +440,36 @@
     .intro-table-first {
         min-height: 395px;
     }
-    
+
     .bootcamp-item h1 {
-    font-size: 30px;
-    justify-content: center;
-    line-height: 1.5;
-    color: #fff;
-    font-family: "RaleWay";
+        font-size: 30px;
+        justify-content: center;
+        line-height: 1.5;
+        color: #fff;
+        font-family: "RaleWay";
     }
-    
+
     .bootcamp-item h2 {
-    color: #b40381;
-    font-size: 35px;
-    text-align: center;
+        color: #b40381;
+        font-size: 35px;
+        text-align: center;
     }
-    
+
     #contact-left h4 {
-    font-size: 30px;
-    padding: 20px 0;
-    font-family: "Exo 2", sans-serif;
-    text-align: left;
-    margin-left: 9px;
+        font-size: 30px;
+        padding: 20px 0;
+        font-family: "Exo 2", sans-serif;
+        text-align: left;
+        margin-left: 9px;
     }
-    
+
     #story-text p {
-    padding: 15px 30px 15px 30px;
+        padding: 15px 30px 15px 30px;
     }
-    
+
     #story-text h1 {
-    padding: 0 30px 10px 30px;
-    text-align: center
+        padding: 0 30px 10px 30px;
+        text-align: center
     }
 }
 

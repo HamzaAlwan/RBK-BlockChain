@@ -8,8 +8,8 @@ var make_upload_to_model = filePluginLib.make_upload_to_model;
 var db = require('./database/db.js');
 
 
-
 var app = express();
+
 
 
 app.set('port', (process.env.PORT || 3000));
@@ -26,7 +26,6 @@ app.get('/', function (req, res) {
 });
 
 app.get('/resumes', function (req, res) {
-
     res.sendFile(__dirname + '/resumes.html');
 });
 
