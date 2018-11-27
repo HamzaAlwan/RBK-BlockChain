@@ -2,7 +2,7 @@ let mongoose = require('mongoose');
 
 
 
-mongoose.connect('mongodb://localhost/applicants', {
+mongoose.connect('mongodb://rbk:12345678a@ds119024.mlab.com:19024/applicants', {
     useNewUrlParser: true
 });
 let db = mongoose.connection;
